@@ -2,7 +2,11 @@
 
 I'm Harris. A Software Engineer from <img src="./assets/img/my_square.png" width="15"> Penang, Malaysia.  
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=gar-hadni&count_private=true&show_icons=true&theme=dark)](https://github.com/gar-hadni)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=gar-hadni&count_private=true&show_icons=true&theme=dark)](https://github.com/gar-hadni)
+
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=dark)](https://github.com/gar-hadni) -->
+
+[![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,cs,angular,gcp,vscode,github)](https://skillicons.dev)
 
 
 <!--
