@@ -1,4 +1,7 @@
-### Hello World
+# 😎 Well, hello there...
+
+I'm Harris. A Software Engineer from <img src="https://cdn-icons-png.flaticon.com/512/5582/5582311.png" width="15"> Penang, Malaysia.
+
 
 <!--
 **gar-hadni/gar-hadni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
