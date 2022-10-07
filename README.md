@@ -1,6 +1,8 @@
-# 😎 Well, hello there...
+# 😎 Well, hello there... 
 
-I'm Harris. A Software Engineer from <img src="./assets/img/my_square.png" width="15"> Penang, Malaysia.
+I'm Harris. A Software Engineer from <img src="./assets/img/my_square.png" width="15"> Penang, Malaysia.  
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=gar-hadni&count_private=true&show_icons=true&theme=dark)](https://github.com/gar-hadni)
 
 
 <!--
