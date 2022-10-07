@@ -1,6 +1,6 @@
 # 😎 Well, hello there...
 
-I'm Harris. A Software Engineer from <img src="https://cdn-icons-png.flaticon.com/512/5582/5582311.png" width="15"> Penang, Malaysia.
+I'm Harris. A Software Engineer from <img src="./assets/img/my_square.png" width="15"> Penang, Malaysia.
 
 
 <!--
