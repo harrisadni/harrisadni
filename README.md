@@ -2,16 +2,13 @@
 
 I'm Harris. A Software Engineer from <img src="./assets/img/my_square.png" width="15"> Penang, Malaysia.  
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=gar-hadni&count_private=true&show_icons=true&theme=dark)](https://github.com/gar-hadni)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=harrisadni&count_private=true&show_icons=true&theme=dark)](https://github.com/gar-hadni)
 
-<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=dark)](https://github.com/gar-hadni) -->
-
-[![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,cs,angular,gcp,vscode,github)](https://skillicons.dev)
-[![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,cs,angular,gcp,vscode,github,dotnet,firebase,githubactions,java,md,nodejs,powershell,py,arduino,react,visualstudio)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,cs,angular,gcp,vscode,github,dotnet,firebase,githubactions,java,md,nodejs,powershell,py,arduino,react,visualstudio,mysql)](https://skillicons.dev)
 
 
 <!--
-**gar-hadni/gar-hadni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**harrisadni/harrisadni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
