@@ -7,6 +7,7 @@ I'm Harris. A Software Engineer from <img src="./assets/img/my_square.png" width
 <!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=dark)](https://github.com/gar-hadni) -->
 
 [![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,cs,angular,gcp,vscode,github)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,cs,angular,gcp,vscode,github,dotnet,firebase,githubactions,java,md,nodejs,powershell,py,arduino,react,visualstudio)](https://skillicons.dev)
 
 
 <!--
