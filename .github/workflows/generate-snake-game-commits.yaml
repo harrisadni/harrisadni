@@ -40,5 +40,6 @@ jobs:
           cp dist/github-snake-dark.svg ./
           git config user.name harrisadni
           git config user.email harris.dilham.adni@gmail.com
-          git commit -am "snake game output"
+          git add github-snake-dark.svg
+          git commit -m "snake game output"
           git push
