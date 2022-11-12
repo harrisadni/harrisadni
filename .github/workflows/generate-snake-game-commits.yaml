@@ -3,7 +3,7 @@ on:
   # run on every push on the master branch
   push:
     branches:
-    - master
+    - main
   
   # allows to manually run the job at any time
   workflow_dispatch:
@@ -12,6 +12,11 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout branch snake-output
+        uses: actions/checkout@v3
+        with: 
+          ref: 'snakegame-output'
+
       - name: generate
         uses: Platane/snk@v2
         with:
@@ -29,11 +34,6 @@ jobs:
           outputs: |
             dist/github-snake-dark.svg?palette=github-dark
           # dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-
-      - name: checkout branch snake-output
-        uses: actions/checkout@v3
-        with: 
-          ref: 'snakegame-output'
 
       - name: push generated snake game output
         run: |
