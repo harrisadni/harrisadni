@@ -38,5 +38,7 @@ jobs:
       - name: push generated snake game output
         run: |
           cp dist/github-snake-dark.svg ./
+          git config user.name harrisadni
+          git config user.email harris.dilham.adni@gmail.com
           git commit -am "snake game output"
           git push
