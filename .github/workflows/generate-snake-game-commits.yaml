@@ -1,4 +1,4 @@
-name: Generate Snake Game Commits
+name: Generate-Snake-Game
 on: 
   # run on every push on the master branch
   push:
