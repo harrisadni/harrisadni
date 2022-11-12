@@ -32,8 +32,9 @@ jobs:
 
       - name: checkout branch snake-output
         uses: actions/checkout@v3
-        ref: 'snakegame-output'
-        
+        with: 
+          ref: 'snakegame-output'
+
       - name: push generated snake game output
         run: |
           cp dist/github-snake-dark.svg ./
