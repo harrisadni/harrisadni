@@ -37,7 +37,7 @@ jobs:
 
       - name: push generated snake game output
         run: |
-          cp dist/github-snake-dark.svg ./
+          cp dist/github-snake-dark.svg ./github-snake-dark.svg
           git config user.name harrisadni
           git config user.email harris.dilham.adni@gmail.com
           git add github-snake-dark.svg
