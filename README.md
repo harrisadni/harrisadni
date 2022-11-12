@@ -14,7 +14,7 @@ I'm Harris. A Software Engineer from <img src="./assets/img/my_square.png" width
 
 <!-- Snake Game -->
 <p>
-    <img src="https://raw.githubusercontent.com/harrisadni/harrisadni/snakegame-output/github-snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/harrisadni/harrisadni/snakegame-output/assets/snakegame-output/github-snake-dark.svg">
 </p>
 
 <!-- View Counter -->
