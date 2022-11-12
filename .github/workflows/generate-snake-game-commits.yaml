@@ -1,19 +1,21 @@
-name: Generate Snake Game Commits
+name: Generate-Snake-Game
 on: 
   # run on every push on the master branch
   push:
     branches:
-    - master
+    - main
   
   # allows to manually run the job at any time
   workflow_dispatch:
 
 jobs:
-  generate:
+  generate-and-replace-output:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
+      - name: checkout branch snake-output
         uses: actions/checkout@v3
+        with: 
+          ref: 'snakegame-output'
 
       - name: generate
         uses: Platane/snk@v2
@@ -30,13 +32,23 @@ jobs:
           #                 The first one is 0 contribution, then it goes from the low contribution to the highest.
           #                 Exactly 5 colors are expected.
           outputs: |
-            dist/github-snake-dark.svg?palette=github-dark
+            assets/snakegame-output/github-snake-dark.svg?palette=github-dark
           # dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: push generated snake game output
-        uses: actions/checkout@v3
-        ref: 'snakegame-output'
+      - name: set git configs
         run: |
-          cp dist/github-snake-dark.svg ./
-          git commit -am "snake game output"
+          git config user.name harrisadni
+          git config user.email harris.dilham.adni@gmail.com
+
+      - name: delete existing snake game output
+        run: |
+          rm assets/snakegame-output/github-snake-dark.svg
+          git add .
+          git commit -m "removing snake game output"
+          git push
+        
+      - name: push current generated snake game output
+        run: |
+          git add assets/snakegame-output/github-snake-dark.svg
+          git commit -m "adding current snake game output"
           git push
