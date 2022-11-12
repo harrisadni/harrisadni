@@ -35,11 +35,20 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
           # dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: push generated snake game output
+      - name: set git configs
         run: |
-          cp dist/github-snake-dark.svg ./github-snake-dark.svg
           git config user.name harrisadni
           git config user.email harris.dilham.adni@gmail.com
+
+      - name: delete existing snake game output
+        run: |
+          rm github-snake-dark.svg
+          git commit -m "removing snake game output"
+          git push
+        
+      - name: push current generated snake game output
+        run: |
+          cp dist/github-snake-dark.svg ./github-snake-dark.svg
           git add github-snake-dark.svg
-          git commit -m "snake game output"
-          git push force --origin
+          git commit -m "adding current snake game output"
+          git push
