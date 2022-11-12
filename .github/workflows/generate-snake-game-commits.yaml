@@ -16,6 +16,18 @@ jobs:
         uses: actions/checkout@v3
         with: 
           ref: 'snakegame-output'
+      
+      - name: set git configs
+        run: |
+          git config user.name harrisadni
+          git config user.email harris.dilham.adni@gmail.com
+
+      - name: delete existing snake game output
+        run: |
+          rm assets/snakegame-output/github-snake-dark.svg
+          git add .
+          git commit -m "removing snake game output"
+          git push
 
       - name: generate
         uses: Platane/snk@v2
@@ -34,18 +46,6 @@ jobs:
           outputs: |
             assets/snakegame-output/github-snake-dark.svg?palette=github-dark
           # dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-
-      - name: set git configs
-        run: |
-          git config user.name harrisadni
-          git config user.email harris.dilham.adni@gmail.com
-
-      - name: delete existing snake game output
-        run: |
-          rm assets/snakegame-output/github-snake-dark.svg
-          git add .
-          git commit -m "removing snake game output"
-          git push
         
       - name: push current generated snake game output
         run: |
