@@ -1,5 +1,9 @@
 name: Generate-Snake-Game
 on: 
+  # run automatically every 12 hours
+  schedule:
+    - cron: "0 */12 * * *" 
+    
   # run on every push on the master branch
   push:
     branches:
