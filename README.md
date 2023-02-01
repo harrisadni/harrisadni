@@ -9,7 +9,7 @@ I'm Harris. A Software Engineer from <img src="./assets/img/my_square.png" width
 
 <!-- Skill Icons -->
 <p align="center">
-    <img src="https://skillicons.dev/icons?perline=8&i=js,ts,html,css,cs,php,c,cpp,java,py,nodejs,angular,react,dotnet,flask,powershell,vscode,visualstudio,arduino,gcp,mysql,firebase,github,githubactions">
+    <img src="https://skillicons.dev/icons?perline=8&i=js,ts,html,css,cs,php,c,cpp,java,py,nodejs,angular,react,dotnet,flask,powershell,vscode,visualstudio,arduino,gcp,mysql,firebase">
 </p>
 
 <!-- Snake Game -->
