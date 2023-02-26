@@ -3,9 +3,9 @@
 I'm Harris. A Software Engineer from <img src="./assets/img/my_square.png" width="15"> Penang, Malaysia.  
 
 <!-- GitHub Stats -->
-<p align="center">
+<!-- <p align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=harrisadni&count_private=true&show_icons=true&theme=dark">
-</p>
+</p> -->
 
 <!-- Skill Icons -->
 <p align="center">
