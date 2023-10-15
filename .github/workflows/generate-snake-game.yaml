@@ -2,7 +2,8 @@ name: Generate-Snake-Game
 on: 
   # run automatically every 12 hours
   schedule:
-    - cron: "0 */12 * * *" 
+    # cronFormat: minutes hours dayOfTheMonth month dayOfTheWeek
+    - cron: "0 0 * * 0" # runs at 00:00 Sun every week
     
   # run on every push on the master branch
   push:
