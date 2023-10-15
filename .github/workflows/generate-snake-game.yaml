@@ -14,6 +14,8 @@ on:
 
 jobs:
   generate-and-replace-output:
+    permissions: 
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: checkout branch snake-output
