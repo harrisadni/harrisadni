@@ -30,12 +30,12 @@ jobs:
           git config user.name harrisadni
           git config user.email harris.dilham.adni@gmail.com
 
-      # - name: delete existing snake game output
-      #   run: |
-      #     rm assets/snakegame-output/github-snake-dark.svg
-      #     git add .
-      #     git commit -m "removing snake game output"
-      #     git push
+      - name: delete existing snake game output
+        run: |
+          rm assets/snakegame-output/github-snake-dark.svg
+          git add .
+          git commit -m "removing snake game output"
+          git push
 
       - name: generate
         uses: Platane/snk@v3
@@ -52,14 +52,13 @@ jobs:
           #                 The first one is 0 contribution, then it goes from the low contribution to the highest.
           #                 Exactly 5 colors are expected.
           outputs: |
-            assets/snakegame-output/github-snake.svg
-          # assets/snakegame-output/github-snake-dark.svg?palette=github-dark
+            assets/snakegame-output/github-snake-dark.svg?palette=github-dark
           # dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.token_all }}
         
       - name: push current generated snake game output
         run: |
-          git add assets/snakegame-output/github-snake.svg
+          git add assets/snakegame-output/github-snake-dark.svg
           git commit -m "adding current snake game output"
           git push

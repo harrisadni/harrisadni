@@ -13,15 +13,10 @@ I'm Harris. A Software Engineer from <img src="./assets/img/my_square.png" width
 </p>
 
 <!-- Snake Game -->
-<!-- <p>
-    <img src="https://raw.githubusercontent.com/harrisadni/harrisadni/snakegame-output/assets/snakegame-output/github-snake.svg">
-    <img src="https://raw.githubusercontent.com/harrisadni/harrisadni/snakegame-output/assets/snakegame-output/github-snake-dark.svg">
-</p> -->
-
 <picture>
-    <!-- <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harrisadni/harrisadni/snakegame-output/assets/snakegame-output/github-snake-dark.svg"> -->
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harrisadni/harrisadni/snakegame-output/assets/snakegame-output/github-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/harrisadni/harrisadni/snakegame-output/assets/snakegame-output/github-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harrisadni/harrisadni/snakegame-output/assets/snakegame-output/github-snake-dark.svg">
+    <!-- <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harrisadni/harrisadni/snakegame-output/assets/snakegame-output/github-snake.svg"> -->
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/harrisadni/harrisadni/snakegame-output/assets/snakegame-output/github-snake-dark.svg">
 </picture>
 
 <!-- View Counter -->
